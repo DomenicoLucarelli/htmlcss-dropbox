@@ -86,7 +86,7 @@ header{
 
 .container2{
     width: 50%;
-    min-height: 1000px;
+    min-height: 2000px;
 
     background-color: rgb(3, 255, 150);
     margin: 100px auto
@@ -131,3 +131,230 @@ header{
     align-items: stretch;
 }
 
+.plan-for{
+    height: 20px;
+
+    background-color: yellow;
+}
+
+.inner-container1-1{
+    padding: 30px 15px 30px 15px;
+    
+
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.plan-type{
+    min-height: 60px;
+
+
+    background-color: brown;
+}
+
+.plan-description{
+    min-height: 90px;
+
+    background-color: yellowgreen;
+}
+
+.plan-button{
+    min-height: 40px;
+
+    background-color: yellowgreen;
+}
+
+.plan-features{
+    min-height: 80px;
+
+    background-color: yellowgreen;
+}
+
+.inner-container2{
+    min-height: 200px;
+
+    background-color: rgba(0, 0, 255, 0.356);
+
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.inner-container2-1{
+
+    padding:30px 15px 30px 15px ;
+    display: flex;
+
+
+}
+
+.inner-container2-1 .plan-type{
+    width: 70%;
+    min-height: 100px;
+}
+
+.inner-container2-1 .plan-button{
+    width: 30%;
+}
+
+.partner{
+    min-height: 400px;
+
+    background-color: grey;
+
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 50px;
+}
+
+.partner-info{
+    width: 40%;
+
+    background-color: goldenrod;
+}
+
+.partner-img{
+    flex-grow: 1;
+
+    background-color: rgba(137, 43, 226, 0.596);
+}
+
+.inner-container3{
+    min-height: 600px;
+    width: 100%;
+    background-color: coral;
+
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    display: flex;
+    gap: 15px;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.operation{
+    width: calc(100% / 3 - 15px);
+    
+
+    background-color: thistle;
+}
+
+.data{
+    width: 60%;
+    min-height: 100px;
+
+    background-color: chartreuse;
+
+    margin-bottom: 60px;
+}
+
+/* /container 2  */
+
+.collaborations{
+    min-height: 400px;
+
+    background-color: red;
+
+    display: flex;
+
+}
+
+.big-square{
+    width: calc(100% / 3);
+
+    background-color: darkgoldenrod;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini-square{
+    width: calc(100% / 2);
+
+    background-color: darkcyan;
+    border: solid 1px black;
+}
+
+.problem{
+    flex-grow: 1;
+}
+
+/* container3 */
+.container3{
+    min-height: 250px;
+
+    background-color: #b4d0e7;
+
+    display: flex;
+    align-items: center;
+}
+
+.inner-container4{
+    width: 50%;
+    min-height: 150px;
+    margin: auto;
+
+
+    background-color: azure;
+
+    display: flex;
+
+
+}
+
+.inner-container4 .text{
+    width: 60%;
+
+    background-color: crimson;
+}
+
+.inner-container4 .button{
+    width: 40%;
+
+    background-color: blueviolet;
+}
+
+.faq{
+    width: 50%;
+
+    min-height: 400px;
+    margin: auto;
+
+    margin-top: 70px;
+    margin-bottom: 70px;
+
+    background-color: olivedrab;
+}
+
+footer{
+
+    min-height: 350px;
+
+    padding: 50px 0 20px 0;
+
+    background-color: black;
+}
+
+.container4{
+    width: 70%;
+    min-height: 280px;
+
+    margin: auto;
+
+    background-color: grey;
+
+    display: flex;
+
+
+}
+
+.footer-item{
+    width: calc(100% / 5);
+    
+
+    background-color: cadetblue;
+    border: 1px solid black;
+}
