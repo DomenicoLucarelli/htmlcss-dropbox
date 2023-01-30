@@ -49,6 +49,7 @@ header{
 
 .section1 h1{
     font-size: 2em;
+    
 }
 
 .sub-section2{
@@ -80,3 +81,53 @@ header{
 
 }
 /* /container1  */
+
+/* container2  */
+
+.container2{
+    width: 50%;
+    min-height: 1000px;
+
+    background-color: rgb(3, 255, 150);
+    margin: 100px auto
+}
+
+.check-box{
+    min-height: 30px;
+    background-color: rgba(255, 0, 0, 0.603);
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+    display: flex;
+
+    gap: 60px;
+}
+
+.check-box .box{
+    min-width: 100px;
+    min-height: 30px;
+
+    background-color: chartreuse;
+
+}
+
+.inner-container1{
+    /* altezza da togliere  */
+    min-height: 500px;
+
+    background-color: orange;
+
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.inner-container1 .plan{
+    width: calc(100% / 3 - 20px);
+
+    background-color: rgba(220, 20, 60, 0.774);
+    align-items: stretch;
+}
+
