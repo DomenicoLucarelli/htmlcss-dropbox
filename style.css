@@ -242,6 +242,18 @@ header{
     
     font-size: 12px;
 
+    
+
+}
+
+ .row{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3px;
+}
+
+ .row{
+    padding-bottom: 10px;
 }
 
 .plan-button span{
@@ -268,8 +280,9 @@ header{
     font-size: 12px;
 }
 
-.plan-features span i{
+.plan-features .row-img i{
     color: #0061ff;
+    font-size: 12px;
 }
 .inner-container2{
     
@@ -409,6 +422,7 @@ header{
 
 .data a{
     font-size: 12px;
+    color: #0000ee;
 }
 /* /container 2  */
 
@@ -435,12 +449,18 @@ display: flex;
     align-items: center;
     justify-content: center;
 
+}
+
+.mini-square:hover{
+    border: 10px solid rgba(128, 128, 128, 0.486);
+    cursor: pointer;
     
 }
 
 .mini-square img{
     width: 50%;
     object-fit: cover;
+    filter: invert(1);
 }
 
 .img1{
@@ -575,6 +595,7 @@ display: flex;
 
 .faq-content:hover p{
     display: block;
+    
 
 }
 
@@ -593,6 +614,7 @@ display: flex;
 .faq-content .test{
     display: flex;
     justify-content: space-between;
+    
 }
 
 .faq-content .test i{
